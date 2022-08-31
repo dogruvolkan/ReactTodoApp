@@ -14,7 +14,7 @@
 }
 
 .containerTodo{
-  width: 40%;
+  width: 70%;
   padding:40px 80px;
   border:1px solid #A8A4CE;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
@@ -69,6 +69,28 @@
   color:#EB1D36;
   font-size:17px;
 }
+
+
+
+@media (max-width:600px){
+  .containerTodo {
+    width: 90%;
+    padding: 20px;
+}
+}
+
+@media (max-width:768px){
+  .containerTodo {
+    width: 90%;
+}
+}
+
+
+
+
+
+
+
 
 
 
